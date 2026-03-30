@@ -21,3 +21,21 @@ body {
 .sub-title li {
   line-height: 2;
 }
+
+.home-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #10ac37;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.home-btn:hover {
+  background: #1e2935;
+}
